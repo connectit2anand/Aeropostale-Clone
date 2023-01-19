@@ -1,0 +1,51 @@
+#banner1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 3vw;
+    background: #1e3352;
+    color: white;
+}
+
+#btn1,
+#btn2 {
+    color: white;
+    background: #1e3352;
+}
+
+#banner2 {
+    display: flex;
+    justify-content: space-around;
+    height: 8vw;
+    width: 100vw;
+    font-size: 1.125rem;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#banner2>div {
+    width: 100%;
+}
+
+#banner2 img {
+    width: 30%;
+    height: 30%;
+}
+
+.banner2a,
+.banner2b {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.banner2b {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#banner2 :nth-child(2) {
+    display: flex;
+    justify-content: center;
+}

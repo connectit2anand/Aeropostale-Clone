@@ -1,0 +1,242 @@
+#banner1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 3vw;
+    background: #1e3352;
+    color: white;
+}
+
+#btn1,
+#btn2 {
+    color: white;
+    background: #1e3352;
+}
+
+#banner2 {
+    display: flex;
+    justify-content: space-around;
+    height: 8vw;
+    width: 100vw;
+    font-size: 1.125rem;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#banner2>div {
+    width: 100%;
+}
+
+#banner2 img {
+    width: 30%;
+    height: 30%;
+}
+
+.banner2a,
+.banner2b {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.banner2b {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#banner2 :nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+
+#banner3 {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    color: white;
+    font-family: Visuelt Light Pro, sans-serif;
+    font-size: 0.9vw;
+    color: #809AAA !important;
+    background: #1e3352;
+    overflow: hidden;
+}
+
+#banner4 {
+    width: 98%;
+    margin: auto;
+    margin-top: 0.5vw;
+    border-radius: 1vw;
+    display: flex;
+    background-image: linear-gradient(to right, rgb(18, 170, 230), rgb(232, 71, 71), rgb(137, 139, 10), rgb(24, 79, 128), rgb(158, 42, 220), rgb(220, 63, 79));
+    color: aliceblue;
+}
+
+#banner4> :nth-child(1) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#banner4> :nth-child(2) {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+
+}
+
+#banner4> :nth-child(1)> :nth-child(1)>img {
+    width: 10vw;
+    height: 5vw;
+    margin: auto;
+    display: block;
+}
+
+#banner4> :nth-child(1) :nth-child(1) {
+    margin-left: 2vw;
+}
+
+.shop {
+    display: flex;
+    width: 98%;
+    margin: auto;
+}
+
+.shop>div {
+    width: 100%;
+    display: flex;
+}
+
+.btnShop button {
+    width: 19vw;
+    height: 3.5vw;
+    margin: 0.5vw;
+    border-radius: 0.5vw;
+    background-color: white;
+    border-color: #ee5e68;
+    color: #ee5e68;
+    font-size: 1vw;
+}
+
+.btnShop button:hover {
+    background-color: #ee5e68;
+    color: white;
+}
+
+.btnShop> :nth-child(1) {
+    margin-left: 5vw;
+    ;
+}
+
+.btnShop> :nth-child(2) {
+    margin-left: -4vw;
+    ;
+}
+
+#fashion>img {
+    width: 100vw;
+}
+
+#aeroPride {
+    display: flex;
+    background-color: #ee5e68;
+    margin-top: 1vw;
+    height: 10vw;
+}
+
+#aeroPride>div {
+    width: 100%;
+}
+
+#aeroPride :nth-child(2) {
+
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-color: white;
+}
+
+#aeroPride :nth-child(2) button {
+    width: 20vw;
+    height: 4vw;
+    margin-top: 3vw;
+    background-color: #ee5e68;
+    color: white;
+    border-color: white;
+    font-size: 1.2vw;
+}
+
+#aeroPride :nth-child(2) button:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+#aeroParagraph1 {
+    color: white;
+    font-size: 1.6vw;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    
+}
+
+#aeroParagraph2 {
+    color: white;
+    font-size: 1.2vw;
+    margin-left: 20px;
+    margin-top: 0vw;
+}
+
+footer {
+    width:100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: auto;
+    color: white;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 1.2vw;;
+}
+
+
+.footerTop {
+    font-size: 1.5vw;
+    margin-top: 0.8vw;
+    margin-bottom: 0.8vw;
+}
+
+
+footer li:hover {
+    color: #ee5e68;
+    cursor: pointer;
+}
+
+footer div {
+    margin-left: 5vw;
+}
+footer > :nth-child(3){
+    margin-right:6vw;
+}
+
+@media all and (min-width:451px) and (max-width:750px) {
+
+    footer {
+        font-size: 1.2vw;
+        background-color: black;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: auto;
+        color: white;
+        justify-content: space-around;
+        list-style: none;
+    }
+    
+}
+
+
+    
+
+    
