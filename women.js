@@ -2,14 +2,14 @@ let data = [];
 let obj1 = {
     image:"./images/1.jpg",
     desc:"City Oversized Bomber Jacket",
-    price:"Rs 1000",
+    price:"1000",
     cart:"Add To Cart",
 }
 data.push(obj1);
 let obj2 = {
     image:"./images/2.jpg",
     desc:"Straight Cargo Pants",
-    price:"Rs 500",
+    price:"500",
     cart:"Add To Cart",
 }
 data.push(obj2);
@@ -17,7 +17,7 @@ data.push(obj2);
 let obj3 = {
     image:"./images/3.jpg",
     desc:"City Oversized Bomber Jacket",
-    price:"Rs 700",
+    price:"700",
     cart:"Add To Cart",
 }
 data.push(obj3);
@@ -25,7 +25,7 @@ data.push(obj3);
 let obj4 = {
     image:"./images/4.jpg",
     desc:"Straight Cargo Pants",
-    price:"Rs 600",
+    price:"600",
     cart:"Add To Cart",
 }
 data.push(obj4);
@@ -33,7 +33,7 @@ data.push(obj4);
 let obj5 = {
     image:"./images/5.jpg",
     desc:"Straight Cargo Pants",
-    price:"Rs 450",
+    price:"450",
     cart:"Add To Cart",
 }
 data.push(obj5);
@@ -41,7 +41,7 @@ data.push(obj5);
 let obj6 = {
     image:"./images/6.jpg",
     desc:"Straight Cargo Pants",
-    price:"Rs 300",
+    price:"300",
     cart:"Add To Cart",
 }
 data.push(obj6);
@@ -49,7 +49,7 @@ data.push(obj6);
 let obj7 = {
     image:"./images/7.jpg",
     desc:"High-Rise Baggy Parachute Pants",
-    price:"Rs 250",
+    price:"250",
     cart:"Add To Cart",
 }
 data.push(obj7);
@@ -57,7 +57,7 @@ data.push(obj7);
 let obj8 = {
     image:"./images/8.jpg",
     desc:"High-Rise Baggy Parachute Pants",
-    price:"Rs 500",
+    price:"500",
     cart:"Add To Cart",
 }
 data.push(obj8);
@@ -65,7 +65,7 @@ data.push(obj8);
 let obj9 = {
     image:"./images/9.jpg",
     desc:"City Oversized Bomber Jacket",
-    price:"Rs 650",
+    price:"650",
     cart:"Add To Cart",
 }
 data.push(obj9);
@@ -73,7 +73,7 @@ data.push(obj9);
 let obj10 = {
     image:"./images/10.jpg",
     desc:"Favourite Shelf-Bra Cami",
-    price:"Rs 1000",
+    price:"1000",
     cart:"Add To Cart",
 }
 data.push(obj10);
@@ -81,7 +81,7 @@ data.push(obj10);
 let obj11 = {
     image:"./images/11.jpg",
     desc:"Favourite Shelf-Bra Cami",
-    price:"Rs 200",
+    price:"200",
     cart:"Add To Cart",
 }
 data.push(obj11);
@@ -89,7 +89,7 @@ data.push(obj11);
 let obj12 = {
     image:"./images/12.jpg",
     desc:"Aeropostale New York Full-Zip Hoodie",
-    price:"Rs 1200",
+    price:"1200",
     cart:"Add To Cart",
 }
 data.push(obj12);
@@ -97,7 +97,7 @@ data.push(obj12);
 let obj13 = {
     image:"./images/13.jpg",
     desc:"Black Tee Shirt",
-    price:"Rs 200",
+    price:"200",
     cart:"Add To Cart",
 }
 data.push(obj13);
@@ -105,7 +105,7 @@ data.push(obj13);
 let obj14 = {
     image:"./images/14.jpg",
     desc:"Burnout Wash Boyfriend Tee",
-    price:"Rs 700",
+    price:"700",
     cart:"Add To Cart",
 }
 data.push(obj14);
@@ -113,7 +113,7 @@ data.push(obj14);
 let obj15 = {
     image:"./images/15.jpg",
     desc:"Favourite Shelf-Bra Cami",
-    price:"Rs 790",
+    price:"790",
     cart:"Add To Cart",
 }
 data.push(obj15);
@@ -121,7 +121,7 @@ data.push(obj15);
 let obj16 = {
     image:"./images/16.jpg",
     desc:"Chainless Hoodie",
-    price:"Rs 450",
+    price:"450",
     cart:"Add To Cart",
 }
 data.push(obj16);
@@ -129,7 +129,7 @@ data.push(obj16);
 let obj17 = {
     image:"./images/17.jpg",
     desc:"Blue Tee Shirt",
-    price:"Rs 850",
+    price:"850",
     cart:"Add To Cart",
 }
 data.push(obj17);
@@ -137,7 +137,7 @@ data.push(obj17);
 let obj18 = {
     image:"./images/18.jpg",
     desc:"Burnout Wash Boyfriend Tee",
-    price:"Rs 230",
+    price:"230",
     cart:"Add To Cart",
 }
 data.push(obj18);
@@ -145,7 +145,7 @@ data.push(obj18);
 let obj19 = {
     image:"./images/19.jpg",
     desc:"Favourite Shelf-Bra Cami",
-    price:"Rs 570",
+    price:"570",
     cart:"Add To Cart",
 }
 data.push(obj19);
@@ -153,7 +153,7 @@ data.push(obj19);
 let obj20 = {
     image:"./images/20.jpg",
     desc:"Favourite Shelf-Bra Cami",
-    price:"Rs 860",
+    price:"860",
     cart:"Add To Cart",
 }
 data.push(obj20);
@@ -174,6 +174,7 @@ data.forEach(element => {
     cart.addEventListener("click",(event)=>{
         addToLS(element);
     })
+    
     cart.innerText = element.cart;
     smallCart.append(imageTag,desc,price,cart);
     products.append(smallCart);
@@ -196,6 +197,7 @@ function addToLS(obj){
     if(!hasEntered){
         obj["quantity"] = 1;
         arrLS.push(obj);
+        obj.quantity = 1;
         localStorage.setItem("cart",JSON.stringify(arrLS));
         alert("Product Added To The Cart");
     } else {
