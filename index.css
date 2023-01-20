@@ -6,6 +6,9 @@
     height: 3vw;
     background: #1e3352;
     color: white;
+    position: fixed;
+    margin-top: -8px;
+ 
 }
 
 #btn1,
@@ -17,20 +20,26 @@
 #banner2 {
     display: flex;
     justify-content: space-around;
-    height: 8vw;
+    height: 4vw;
     width: 100vw;
     font-size: 1.125rem;
     align-items: center;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding-top: 3vw;
+    position: fixed;
+    background-color: white;
+   
+    
 }
+
 
 #banner2>div {
     width: 100%;
 }
 
 #banner2 img {
-    width: 30%;
-    height: 30%;
+    width: 20px;
+    height: 20px;
 }
 
 .banner2a,
@@ -50,6 +59,7 @@
     justify-content: center;
 }
 
+
 #banner3 {
     display: flex;
     text-align: center;
@@ -60,6 +70,7 @@
     color: #809AAA !important;
     background: #1e3352;
     overflow: hidden;
+    padding-top: 10.5vw;
 }
 
 #banner4 {
@@ -220,6 +231,10 @@ footer div {
 footer > :nth-child(3){
     margin-right:6vw;
 }
+
+
+
+
 
 @media all and (min-width:451px) and (max-width:750px) {
 

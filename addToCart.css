@@ -49,3 +49,98 @@
     display: flex;
     justify-content: center;
 }
+
+#addToCart{
+    width:100%;
+   
+    height: 20vw;
+    display: flex;
+}
+
+#bag{
+    width:100%;
+    padding-left: 5vw;
+    height: 20vw;;
+}
+#payment{
+    width:100%;
+    height: 20vw;
+}
+#paymentBox{
+    width:80%;
+    margin: auto;;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-left: 6vw;
+    
+}
+#checkout{
+    background-color:black;
+    color:white;
+    font-size: 1vw;;
+}
+#paymentBox button {
+    display: block;
+    height:2vw;
+    margin: auto;
+    width:80%;
+}
+#paymentBox span{
+    margin-left: 12vw;;
+}
+
+#paymentBox > p{
+    margin-top: -1vw;;
+}
+
+#payment  :nth-child(2){
+    margin-top: 1vw;;
+}
+
+#products{
+    width:90%;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:1vw;
+    margin: auto;
+}
+#products img{
+    width: 15vw;
+    height: 20vw;
+    width:100%;
+    
+}
+#products img:hover{
+    transform: scale(1.0001);
+}
+#products p{
+    font-family: "Visuelt Pro", sans-serif;
+    font-size: 0.875rem;
+    font-weight: normal;
+    line-height: 1.4;
+    color: #000;
+}
+
+#products p:hover{
+    margin-left: 1vw;
+    color:#ee5e68;
+    cursor: pointer;
+    
+}
+#bag{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:1vw;
+    margin: auto;
+}
+#bag  img{
+    width: 10vw;
+    height: 15vw;
+    width: 100%;;
+}
+#card{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+
