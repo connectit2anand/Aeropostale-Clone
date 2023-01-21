@@ -14,27 +14,40 @@
 #banner2 {
     display: flex;
     justify-content: space-around;
-    height:8vw;
-    width:100vw;
+    height: 8vw;
+    width: 100vw;
     font-size: 1.125rem;
     align-items: center;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 #banner2 > div{
     width:100%;
-}
-#banner2 img{
-    width:40%;
-    height: 60%;
-}
-.banner2a,.banner2b{
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
 }
-#banner2 :nth-child(2){
-    display: flex;
-    justify-content: center;
+.banner2a {
+    display:flex;
 }
+.banner2a  div{
+    display: flex;
+    justify-content: space-between;
+}
+.banner2b{
+    display: flex;
+}
+.banner2b  img{
+    width: 20px;
+    height:25px;
+    margin: auto;;
+    margin-left: 5px;
+    margin-right: 5px;;
+}
+#title{
+    width:10vw;
+    font-size: 5vw;
+}
+
 #banner3{
     width:90%;
     margin: auto;
@@ -122,15 +135,11 @@ a {
 @media all and (min-width:451px) and (max-width:750px) {
 
     footer {
-        font-size: 1.2vw;
-        background-color: black;
+       
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        margin: auto;
-        color: white;
-        justify-content: space-around;
-        list-style: none;
-    }   
+      
+    }  
 
     #products{
         width:90%;
@@ -139,4 +148,5 @@ a {
         gap:1vw;
        
     }
+
 }

@@ -20,43 +20,38 @@
 #banner2 {
     display: flex;
     justify-content: space-around;
-    height: 4vw;
+    height: 8vw;
     width: 100vw;
     font-size: 1.125rem;
     align-items: center;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    padding-top: 3vw;
-    position: fixed;
-    background-color: white;
-   
-    
 }
-
-
-#banner2>div {
-    width: 100%;
-}
-
-#banner2 img {
-    width: 20px;
-    height: 20px;
-}
-
-.banner2a,
-.banner2b {
+#banner2 > div{
+    width:100%;
     display: flex;
-    justify-content: space-evenly;
-}
-
-.banner2b {
-    display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    justify-content: space-evenly;
 }
-
-#banner2 :nth-child(2) {
+.banner2a {
+    display:flex;
+}
+.banner2a  div{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+}
+.banner2b{
+    display: flex;
+}
+.banner2b  img{
+    width: 20px;
+    height:25px;
+    margin: auto;;
+    margin-left: 5px;
+    margin-right: 5px;;
+}
+#title{
+    width:10vw;
+    font-size: 5vw;
 }
 
 

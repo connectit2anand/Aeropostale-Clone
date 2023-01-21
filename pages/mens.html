@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="addToCart.css">
+    <title>Mens</title>
+    <link rel="stylesheet" href="./../css/mens.css">
 </head>
 <body>
     <div id="banner1">
@@ -22,39 +22,36 @@
     <div id="banner2">
         <div class="banner2a">
             <div id="womenSelect"><a href="women.html">Women</a></div>
-            <div>Men</div>
-            <div>Jeans</div>
+            <div id="menSelect"><a href="mens.html">Men</a></div>
+            <div id="jeansSelect"><a href="jeans.html">Jeans</a></div>
             <div style="color: red;">Clearance</div>
         </div>
-        <div id="title"><b>AKART</b></div>
+        <div id="title" style="cursor: pointer;"><b><a href="home.html">AKART</a></b></div>
         <div class="banner2b">
             <div><input type="text" placeholder="Search" /><button>Search</button></div>
 
-            <div><img style="height:20px;" src="./location.png" alt="no image found" /> </div>
-            <div><img style="height:20px;" src="./user.png" alt="no image found" /> </div>
-            <div><img style="width: 25px;height:22px;padding-right: 5px;;" src="./lock.png" alt="no image found" /> </div>
-        </div>
-    </div>
-    <div id="addToCart">
-        <div id="bag">
-
-        </div>
-        <div id="payment">
-            <div id="paymentBox" >
-                <h2>ORDER SUMMARY</h2>
-                <p>Sub Total<span id="total"></span></p><br>
-                <p>Shipping Economy Ground<span id="shippingTax"></span></p><br>
-                <p>Sales Tax<span id="salesTax"></span></p><br>
-                <p>Estimated Total<span id="estimatedTotal"></span></p>
-                <button id="checkout">Checkout</button>
-                <h4>Estimated Shipping Cost</h4>
-                <p ><input type="radio" name="test"/> Economy Ground (Delivered In 3 - 7 Business Days.): $5.00</p>
-                <p><input type="radio" name="test"/> Standard Ground (Delivered In 3 - 5 Business Days.): $8.00</p>
-                <p><input type="radio" name="test"/> 2 Business Days (Order By 1:30PM EST, No Weekend Deliveries): $13.00</p>
-                <p><input type="radio" name="test"/> Overnight (Order By 1:30pm EST, No Weekend Deliveries): $25.00</p>
+            <div><img style="height:20px;" src="./../images/icons/location.png" alt="no image found" /> </div>
+            <div><img style="height:20px;" src="./../images/icons/user.png" alt="no image found" /> </div>
+            <div>
+                <a href="./addToCart.html"><img style="width: 25px;height:22px;padding-right: 5px;;" src="./../images/icons/lock.png" alt="no image found" /></a>
             </div>
         </div>
     </div>
+    <div id="banner3">
+        <a style="font-size: 30px;" href="">Men</a>
+        <a href="">Tshirt</a>
+        <a href="">Bottom</a>
+        <a href="">Hoodies</a>
+        <a href="">Loungewear</a>
+        <a href="">Swimmer</a>
+        <a href="">Outwear</a>
+        <a href="">Acessories</a>
+        <a href="">Sweaters</a>
+    </div>
+    <div id="products">
+
+    </div>
+
     <footer>
         <div>
              <li class="footerTop">Get to Know Us</li> 
@@ -99,6 +96,9 @@
          </div>
      </footer>
 
+    
+ 
+    
 </body>
-<script src="addToCart.js"></script>
+<script src="./../js/mens.js"></script>
 </html>

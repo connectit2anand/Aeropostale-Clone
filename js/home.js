@@ -1,4 +1,4 @@
-let fashionImg = ["p1.jpg"];
+let fashionImg = ["./../images/icons/p1.jpg"];
 fashionImg.forEach(element => {
     let fashion = document.getElementById("fashion");
     let image = document.createElement("img");
