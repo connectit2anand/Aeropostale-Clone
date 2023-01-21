@@ -23,32 +23,37 @@
     align-items: center;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-
-#banner2>div {
-    width: 100%;
-}
-
-#banner2 img {
-    width: 30%;
-    height: 30%;
-}
-
-.banner2a,
-.banner2b {
+#banner2 > div{
+    width:100%;
     display: flex;
-    justify-content: space-evenly;
-}
-
-.banner2b {
-    display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    justify-content: space-evenly;
+}
+.banner2a {
+    display:flex;
+}
+.banner2a  div{
+    display: flex;
+    justify-content: space-between;
+}
+.banner2b{
+    display: flex;
+}
+.banner2b  img{
+    width: 20px;
+    height:25px;
+    margin: auto;;
+    margin-left: 5px;
+    margin-right: 5px;;
+}
+#title{
+    width:10vw;
+    font-size: 5vw;
 }
 
-#banner2 :nth-child(2) {
-    display: flex;
-    justify-content: center;
-}
+ 
+
+
 
 #addToCart{
     width:100%;

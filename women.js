@@ -1,13 +1,13 @@
 let data = [];
 let obj1 = {
-    image:"./images/1.jpg",
+    image:"./images/womens/1.jpg",
     desc:"City Oversized Bomber Jacket",
     price:"1000",
     cart:"Add To Cart",
 }
 data.push(obj1);
 let obj2 = {
-    image:"./images/2.jpg",
+    image:"./images/womens/2.jpg",
     desc:"Straight Cargo Pants",
     price:"500",
     cart:"Add To Cart",
@@ -15,7 +15,7 @@ let obj2 = {
 data.push(obj2);
 
 let obj3 = {
-    image:"./images/3.jpg",
+    image:"./images/womens/3.jpg",
     desc:"City Oversized Bomber Jacket",
     price:"700",
     cart:"Add To Cart",
@@ -23,7 +23,7 @@ let obj3 = {
 data.push(obj3);
 
 let obj4 = {
-    image:"./images/4.jpg",
+    image:"./images/womens/4.jpg",
     desc:"Straight Cargo Pants",
     price:"600",
     cart:"Add To Cart",
@@ -31,7 +31,7 @@ let obj4 = {
 data.push(obj4);
 
 let obj5 = {
-    image:"./images/5.jpg",
+    image:"./images/womens/5.jpg",
     desc:"Straight Cargo Pants",
     price:"450",
     cart:"Add To Cart",
@@ -39,7 +39,7 @@ let obj5 = {
 data.push(obj5);
 
 let obj6 = {
-    image:"./images/6.jpg",
+    image:"./images/womens/6.jpg",
     desc:"Straight Cargo Pants",
     price:"300",
     cart:"Add To Cart",
@@ -47,7 +47,7 @@ let obj6 = {
 data.push(obj6);
 
 let obj7 = {
-    image:"./images/7.jpg",
+    image:"./images/womens/7.jpg",
     desc:"High-Rise Baggy Parachute Pants",
     price:"250",
     cart:"Add To Cart",
@@ -55,7 +55,7 @@ let obj7 = {
 data.push(obj7);
 
 let obj8 = {
-    image:"./images/8.jpg",
+    image:"./images/womens/8.jpg",
     desc:"High-Rise Baggy Parachute Pants",
     price:"500",
     cart:"Add To Cart",
@@ -63,7 +63,7 @@ let obj8 = {
 data.push(obj8);
 
 let obj9 = {
-    image:"./images/9.jpg",
+    image:"./images/womens/9.jpg",
     desc:"City Oversized Bomber Jacket",
     price:"650",
     cart:"Add To Cart",
@@ -71,7 +71,7 @@ let obj9 = {
 data.push(obj9);
 
 let obj10 = {
-    image:"./images/10.jpg",
+    image:"./images/womens/10.jpg",
     desc:"Favourite Shelf-Bra Cami",
     price:"1000",
     cart:"Add To Cart",
@@ -79,7 +79,7 @@ let obj10 = {
 data.push(obj10);
 
 let obj11 = {
-    image:"./images/11.jpg",
+    image:"./images/womens/11.jpg",
     desc:"Favourite Shelf-Bra Cami",
     price:"200",
     cart:"Add To Cart",
@@ -87,7 +87,7 @@ let obj11 = {
 data.push(obj11);
 
 let obj12 = {
-    image:"./images/12.jpg",
+    image:"./images/womens/12.jpg",
     desc:"Aeropostale New York Full-Zip Hoodie",
     price:"1200",
     cart:"Add To Cart",
@@ -95,7 +95,7 @@ let obj12 = {
 data.push(obj12);
 
 let obj13 = {
-    image:"./images/13.jpg",
+    image:"./images/womens/13.jpg",
     desc:"Black Tee Shirt",
     price:"200",
     cart:"Add To Cart",
@@ -103,7 +103,7 @@ let obj13 = {
 data.push(obj13);
 
 let obj14 = {
-    image:"./images/14.jpg",
+    image:"./images/womens/14.jpg",
     desc:"Burnout Wash Boyfriend Tee",
     price:"700",
     cart:"Add To Cart",
@@ -111,7 +111,7 @@ let obj14 = {
 data.push(obj14);
 
 let obj15 = {
-    image:"./images/15.jpg",
+    image:"./images/womens/15.jpg",
     desc:"Favourite Shelf-Bra Cami",
     price:"790",
     cart:"Add To Cart",
@@ -119,7 +119,7 @@ let obj15 = {
 data.push(obj15);
 
 let obj16 = {
-    image:"./images/16.jpg",
+    image:"./images/womens/16.jpg",
     desc:"Chainless Hoodie",
     price:"450",
     cart:"Add To Cart",
@@ -127,7 +127,7 @@ let obj16 = {
 data.push(obj16);
 
 let obj17 = {
-    image:"./images/17.jpg",
+    image:"./images/womens/17.jpg",
     desc:"Blue Tee Shirt",
     price:"850",
     cart:"Add To Cart",
@@ -135,7 +135,7 @@ let obj17 = {
 data.push(obj17);
 
 let obj18 = {
-    image:"./images/18.jpg",
+    image:"./images/womens/18.jpg",
     desc:"Burnout Wash Boyfriend Tee",
     price:"230",
     cart:"Add To Cart",
@@ -143,7 +143,7 @@ let obj18 = {
 data.push(obj18);
 
 let obj19 = {
-    image:"./images/19.jpg",
+    image:"./images/womens/19.jpg",
     desc:"Favourite Shelf-Bra Cami",
     price:"570",
     cart:"Add To Cart",
@@ -151,7 +151,7 @@ let obj19 = {
 data.push(obj19);
 
 let obj20 = {
-    image:"./images/20.jpg",
+    image:"./images/womens/20.jpg",
     desc:"Favourite Shelf-Bra Cami",
     price:"860",
     cart:"Add To Cart",
