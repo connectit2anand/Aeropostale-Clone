@@ -73,9 +73,19 @@ let data = [
 
 let products = document.getElementById("products");
 
+function swap(event) {
+    let img = event.target.src;
+    let alt = event.target.alt;
+    event.target.setAttribute("src", alt);
+    event.target.setAttribute("alt", img);
+}
+
 data.forEach(element => {
     let imageTag = document.createElement("img");
     imageTag.setAttribute("src",element.image);
+    imageTag.setAttribute("alt",element.alt);
+    imageTag.addEventListener("mouseover",swap);
+    imageTag.addEventListener("mouseout", swap);
     let smallCart= document.createElement("div");
     let desc = document.createElement("p");
     desc.innerText=element.desc;

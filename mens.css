@@ -92,8 +92,6 @@ footer > :nth-child(3){
     text-align: center;
 }
 #products img{
-    width: 15vw;
-    height: 20vw;
     width:100%;
     
 }
@@ -133,4 +131,12 @@ a {
         justify-content: space-around;
         list-style: none;
     }   
+
+    #products{
+        width:90%;
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:1vw;
+       
+    }
 }

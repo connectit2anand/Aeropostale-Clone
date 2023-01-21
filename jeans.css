@@ -93,7 +93,7 @@ footer > :nth-child(3){
 }
 #products img{
     width:80%;
-    
+    cursor: pointer;
 }
 #products img:hover{
     transform: scale(1.0001);
@@ -130,5 +130,12 @@ a {
         color: white;
         justify-content: space-around;
         list-style: none;
-    }   
+    }  
+    #products{
+        width:90%;
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:1vw;
+       
+    } 
 }

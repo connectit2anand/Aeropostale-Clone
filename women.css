@@ -92,8 +92,6 @@ footer > :nth-child(3){
     text-align: center;
 }
 #products img{
-    width: 15vw;
-    height: 20vw;
     width:100%;
     
 }
@@ -124,13 +122,18 @@ a {
 @media all and (min-width:451px) and (max-width:750px) {
 
     footer {
-        font-size: 1.2vw;
-        background-color: black;
+       
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        margin: auto;
-        color: white;
-        justify-content: space-around;
-        list-style: none;
-    }   
+      
+    }  
+
+    #products{
+        width:90%;
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:1vw;
+       
+    }
+
 }
