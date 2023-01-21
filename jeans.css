@@ -86,15 +86,13 @@ footer > :nth-child(3){
 #products{
     width:90%;
     display:grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(5,1fr);
     gap:1vw;
     margin: auto;
     text-align: center;
 }
 #products img{
-    width: 15vw;
-    height: 20vw;
-    width:100%;
+    width:80%;
     
 }
 #products img:hover{

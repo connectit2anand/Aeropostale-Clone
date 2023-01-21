@@ -1,122 +1,72 @@
 let data = [
     {
-        desc: "Chicago Bulls Bomber Jacket",
+        desc: "WIDE LEG",
         price: 900,
-        image: "./images/mens/20.jpg",
+        image: "./images/jeans/1a.png",
+        alt: "./images/jeans/1b.png",
         cart: "Add to cart"
     },
     {
-        desc: "Rick And Morty Graphic Tee",
-        price: 250,
-        image: "./images/mens/5.jpg",
+        desc: "LOW & LOOSE",
+        price: 1110,
+        image: "./images/jeans/2a.png",
+        alt: "./images/jeans/2b.png",
         cart: "Add to cart"
     },
     {
-        desc: "Beach Chino Shorts 7.5",
-        price: 240,
-        image: "./images/mens/18.jpg",
+        desc: "FLARE",
+        price: 999,
+        image: "./images/jeans/3a.png",
+        alt: "./images/jeans/3b.png",
         cart: "Add to cart"
     },
     {
-        desc:"Los Angeles Lakers Graphic Tee",
-        price:540,
-        image: "./images/mens/2.jpg",
+        desc:"JEGGINGS",
+        price:1799,
+        image: "./images/jeans/4a.png",
+        alt: "./images/jeans/4b.png",
+        cart: "Add to cart"
+    },
+    {
+        desc:"90S BAGGY",
+        price:999,
+        image: "./images/jeans/5a.png",
+        alt: "./images/jeans/5b.png",
         cart: "Add to cart"
     },
     {
         desc:"Athletic Fit Chinos",
         price:799,
-        image: "./images/mens/11.jpg",
+        image: "./images/jeans/6a.png",
+        alt: "./images/jeans/6b.png",
         cart: "Add to cart"
     },
     {
         desc:"Athletic Fit Chinos",
-        price:799,
-        image: "./images/mens/12.jpg",
-        cart: "Add to cart"
-    },
-    {
-        desc:"Athletic Fit Chinos",
-        price:779,
-        image: "./images/mens/10.jpg",
+        price:4999,
+        image: "./images/jeans/7a.png",
+        alt: "./images/jeans/7b.png",
         cart: "Add to cart"
     },
     {
         desc:"Athletic Fit Chinos",
         price:1799,
-        image: "./images/mens/13.jpg",
+        image: "./images/jeans/8a.png",
+        alt: "./images/jeans/8b.png",
         cart: "Add to cart"
     },
     {
         desc:"Chicago Bulls Mesh Shorts",
-        price:499,
-        image: "./images/mens/19.jpg",
+        price:4999,
+        image: "./images/jeans/9a.png",
+        alt: "./images/jeans/9b.png",
         cart: "Add to cart"
     },
     {
         desc:"Los Angeeles Lakers Bomber Jacket",
-        price:1999,
-        image: "./images/mens/17.jpg",
-        cart: "Add to cart"
-    },
-    {
-        desc:"Slim Hemp Denim Shorts",
-        price:199,
-        image: "./images/mens/15.jpg",
-        cart: "Add to cart"
-    },
-    {
-        desc:"New York Knicks Graphic Tee",
-        price:999,
-        image: "./images/mens/3.jpg",
-        cart: "Add to cart"
-    },
-    {
-        desc:"Skinny Premium Jeans",
-        price:1000,
-        image: "./images/mens/9.jpg",
-        cart: "Add to cart"
-    },
-    {
-        desc:"Athletic Premium Air Denim Shorts",
-        price:799,
-        image: "./images/mens/16.jpg",
-        cart: "Add to cart"
-    },
-    {
-        desc:"Chicago Bulls Pullover Hoodie",
-        price:1600,
-        image: "./images/mens/6.jpg",
-        cart: "Add to cart"
-    },
-    {
-        desc:"Aeropostale Logo Spliced Graphic Tee",
-        price:400,
-        image: "./images/mens/1.jpg",
-        cart: "Add to cart"
-    },
-    {
-        desc:"Premium Air Athletic Skinny Jean",
-        price:1700,
-        image: "./images/mens/8.jpg",
-        cart: "Add to cart"
-    },
-    {
-        desc:"Air Softspun Tech Fleece Bomber Jacket",
-        price:4000,
-        image: "./images/mens/7.jpg",
-        cart: "Add to cart"
-    },
-    {
-        desc:"A87 Logo Pique Polo",
-        price:1199,
-        image: "./images/mens/14.jpg",
-        cart: "Add to cart"
-    },
-    {
-        desc:"Aero Block Logo Heritage Pullover Hoodie",
-        price:1199,
-        image: "./images/mens/21.jpg",
+        price:5899,
+        image: "./images/jeans/10a.png",
+        alt: "./images/jeans/10b.png",
         cart: "Add to cart"
     }
 ];
