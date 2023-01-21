@@ -89,6 +89,7 @@ footer > :nth-child(3){
     grid-template-columns: repeat(4,1fr);
     gap:1vw;
     margin: auto;
+    text-align: center;
 }
 #products img{
     width: 15vw;

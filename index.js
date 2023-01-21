@@ -1,26 +1,43 @@
-let fashionImg = ["p1.jpg"];
-fashionImg.forEach(element => {
-    let fashion = document.getElementById("fashion");
-    let image = document.createElement("img");
-    image.setAttribute("src",element);
-    fashion.append(image);
-});
-let str1 = "It's the time of the year to honor our predecessors and the fight constantly give  for equal rights, that small break from reality were we celebrate love and who we are.";
-let str2 = "If it wasn't for two brave and ruthless transgender women of color starting a riot, we wouldn't";
-let aeroPride = [str1,str2];
-let x = document.getElementById("aeroPrideDynamic");
-x.setAttribute("id","aeroParagraph2")
-let i = 0;
-x.innerText = aeroPride[i];
-setInterval(function(){
-    if(i == aeroPride.length){
-        i = 0;
+let userDetails = [];
+obj1 = {
+    email: "connectit2anand@gmail.com",
+    password: "anand123"
+}
+userDetails.push(obj1);
+
+let obj2 = {
+    email: "helloworld@gmail.com",
+    password: "anand1234",
+}
+userDetails.push(obj2);
+let emailId = document.getElementById("emailId");
+let password = document.getElementById("password");
+signIn = document.getElementById("signIn");
+signIn.addEventListener("click", (event) => {
+    let errorMsg = "Incorrect email or password";
+    let wentToHome = false;
+    userDetails.forEach((element) => {
+        if(emailId.value == element.email && password.value == element.password){
+            let goToHome = document.getElementById("goToHome");
+            goToHome.click();
+            wentToHome = true;
+        }
+    })  
+    if(!wentToHome){
+        let displayMsg = document.getElementById("displayMsg");
+        
+        if(emailId.value == "" && password.value == ""){
+            displayMsg.innerText = "Enter Email And password";
+        } else if(emailId.value == ""){
+            displayMsg.innerText = "Enter Email Id";
+        } 
+        else if(password.value == ""){
+            displayMsg.innerText = "Enter Password";
+        } 
+        else{
+            displayMsg.innerText = "Incorrect Email or Password";
+        }
+        displayMsg.style.display = "";
     }
-    x.innerText=aeroPride[i];
-    i ++;
-},7000);
-
-
-
- 
+});
 
