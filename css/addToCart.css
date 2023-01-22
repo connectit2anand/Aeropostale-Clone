@@ -227,6 +227,10 @@ a{
         grid-template-columns: repeat(3,1fr);
         margin: auto;
     }
+    
+    .hideOnSmall{
+        display: none !important;
+    }
 
 }
 
@@ -252,6 +256,10 @@ a{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         margin: auto;
+    }
+    
+    .hideOnSmall{
+        display: none !important;
     }
 
 }

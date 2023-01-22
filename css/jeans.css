@@ -159,6 +159,10 @@ a {
         gap:1vw;
        
     } 
+    
+    .hideOnSmall{
+        display: none !important;
+    }
 }
 
 
@@ -181,5 +185,10 @@ a {
         gap:1vw;
        
     } 
+
+    .hideOnSmall{
+            display: none !important;
+    }
+    
 }
 

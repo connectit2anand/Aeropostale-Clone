@@ -160,6 +160,10 @@ a {
         gap:1vw;
        
     }
+    
+    .hideOnSmall{
+        display: none !important;
+    }
 }
 
 @media all and (min-width:300px) and (max-width:452px) {
@@ -182,4 +186,9 @@ a {
         gap:1vw;
        
     }
+
+    
+        .hideOnSmall{
+            display: none !important;
+        }
 }

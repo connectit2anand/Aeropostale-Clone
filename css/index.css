@@ -167,6 +167,22 @@ a {
         color: white;
         justify-content: space-around;
         list-style: none;
-    }
+    }   
     
+    .hideOnSmall{
+        display: none !important;
+    }
+}
+
+@media all and (min-width:300px) and (max-width:452px) {
+
+    footer {
+       
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+      
+    }  
+    .hideOnSmall{
+        display: none !important;
+    }
 }

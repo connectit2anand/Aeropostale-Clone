@@ -135,6 +135,23 @@ function increaseProduct(obj){
     display(cartProductsLS);
 }
 
+let filter = document.getElementById("filter");
+let toFilter = document.getElementById("toFilter");
+ filter.addEventListener("click",(event)=>{
+    if(toFilter.value == "") {
+        display(cartProductsLS);
+        return;
+    }
+    let filteredDress = cartProductsLS.filter((element)=>{
+        if(+element.price <= toFilter.value){
+            return true;
+        } else {
+            return false;
+        }
+    });
+    display(filteredDress);
+})
+
 function decreaseProduct(obj){
     let obj1 = JSON.stringify(obj);
     cartProductsLS.forEach((element) =>{
