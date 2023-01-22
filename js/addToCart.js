@@ -43,12 +43,14 @@ function display(data) {
         
         let btnIncrease = document.createElement("button");
         btnIncrease.innerText = "+";
+        btnIncrease.setAttribute("id","btnIncColor");
         btnIncrease.addEventListener("click",(event)=>{
             increaseProduct(element);
         })
         let spanTag = document.createElement("span");
         spanTag.innerText = Number(element.quantity);
         let btnDecrease = document.createElement("button");
+        btnDecrease.setAttribute("id","btnDecColor");
         btnDecrease.innerText = "-";
         btnDecrease.addEventListener("click",(event)=>{
             decreaseProduct(element);

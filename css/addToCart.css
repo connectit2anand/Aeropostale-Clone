@@ -196,6 +196,8 @@ a{
 
 
 
+
+
 @media all and (min-width:451px) and (max-width:750px) {
 
     footer {
@@ -220,6 +222,7 @@ a{
     }
 
 }
+
 
 @media all and (min-width:200px) and (max-width:451px) {
 

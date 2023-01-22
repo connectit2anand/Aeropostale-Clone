@@ -150,3 +150,22 @@ a {
     }
 
 }
+
+@media all and (min-width:300px) and (max-width:452px) {
+
+    footer {
+       
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+      
+    }  
+
+    #products{
+        width:90%;
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        gap:1vw;
+       
+    }
+
+}

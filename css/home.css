@@ -116,6 +116,7 @@
 .shop>div {
     width: 100%;
     display: flex;
+    
 }
 
 .btnShop button {
@@ -141,7 +142,7 @@
 
 .btnShop> :nth-child(2) {
     margin-left: -4vw;
-    ;
+    
 }
 
 #fashion>img {
