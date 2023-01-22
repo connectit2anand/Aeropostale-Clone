@@ -6,6 +6,9 @@
     height: 3vw;
     background: #1e3352;
     color: white;
+    position: fixed;
+    z-index: 2;
+    margin-top: -8px;
 }
 
 #btn1,
@@ -22,6 +25,10 @@
     font-size: 1.125rem;
     align-items: center;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    padding-top: 2vw;
 }
 #banner2 > div{
     width:100%;
@@ -90,6 +97,8 @@ footer > :nth-child(3){
     width:100%;
     display: flex;
     text-align: center;
+    position: relative;
+    padding-top: 12vw;
 }
 
 #bag{

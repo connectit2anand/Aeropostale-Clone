@@ -212,8 +212,12 @@ function addToLS(obj){
 let filter = document.getElementById("filter");
 let toFilter = document.getElementById("toFilter");
  filter.addEventListener("click",(event)=>{
+    if(toFilter.value == "") {
+        display(data);
+        return;
+    }
     let filteredDress = data.filter((element)=>{
-        if(element.price <= toFilter.value){
+        if(+element.price <= toFilter.value){
             return true;
         } else {
             return false;

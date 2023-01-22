@@ -6,6 +6,9 @@
     height:3vw;
     background: #1e3352;
     color: white;
+    z-index: 2;
+    position: fixed;
+    margin-top: -30px;;
 }
 #btn1,#btn2{
     color:white;
@@ -14,11 +17,15 @@
 #banner2 {
     display: flex;
     justify-content: space-around;
-    height: 8vw;
+    height: 6vw;
     width: 100vw;
     font-size: 1.125rem;
     align-items: center;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: fixed;
+    background: white;
+    z-index: 1;
+    padding-top: 2vw;
 }
 #banner2 > div{
     width:100%;
@@ -59,6 +66,7 @@
     justify-content: space-around;
     align-items: center;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding-top: 9vw;
 }
 #banner3 > a{
     text-decoration: none;

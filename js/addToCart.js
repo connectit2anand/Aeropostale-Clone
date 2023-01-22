@@ -37,12 +37,14 @@ function display(data) {
         let cart = document.createElement("p");
         cart.setAttribute("id", "cart");
         cart.innerText = "Remove";
+        cart.style.cursor = "pointer";
         cart.addEventListener("click", (event) => {
             deleteLS(element);
         })
         
         let btnIncrease = document.createElement("button");
         btnIncrease.innerText = "+";
+        btnIncrease.style.cursor = "pointer";
         btnIncrease.setAttribute("id","btnIncColor");
         btnIncrease.addEventListener("click",(event)=>{
             increaseProduct(element);
@@ -50,6 +52,7 @@ function display(data) {
         let spanTag = document.createElement("span");
         spanTag.innerText = Number(element.quantity);
         let btnDecrease = document.createElement("button");
+        btnDecrease.style.cursor = "pointer";
         btnDecrease.setAttribute("id","btnDecColor");
         btnDecrease.innerText = "-";
         btnDecrease.addEventListener("click",(event)=>{

@@ -8,8 +8,14 @@
     color: white;
     position: fixed;
     margin-top: -8px;
- 
+    z-index: 1; 
+    overflow: hidden;
 }
+/* .slide{
+    position: absolute;
+    transition:1s;
+    width:100%;
+} */
 
 #btn1,
 #btn2 {
@@ -20,14 +26,18 @@
 #banner2 {
     display: flex;
     justify-content: space-around;
-    height: 8vw;
+    height: 6vw;
     width: 100vw;
     font-size: 1.125rem;
     align-items: center;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding-top: 3vw;
-   
+    position: fixed;
+    background: white;
+    z-index: 0;
 }
+   
+
 #banner2 > div{
     width:100%;
     display: flex;
@@ -67,8 +77,8 @@
     color: #809AAA !important;
     background: #1e3352;
     overflow: hidden;
-    padding-top: 8vw;
     padding-top: inherit;
+    padding-top: 9vw;
 }
 
 #banner4 {
@@ -137,7 +147,7 @@
 
 .btnShop> :nth-child(1) {
     margin-left: 5vw;
-    ;
+    
 }
 
 .btnShop> :nth-child(2) {
@@ -239,7 +249,7 @@ a{
 
 
 
-@media all and (min-width:451px) and (max-width:750px) {
+@media all and (min-width:400px) and (max-width:750px) {
 
     footer {
         font-size: 1.2vw;
@@ -251,7 +261,73 @@ a{
         justify-content: space-around;
         list-style: none;
     }
+
+    .shop{
+        flex-direction: column;
+    }
+    .btnShop{
+        flex-direction: column;
+    }
+    #secondBtn{
+        margin-left: 5vw;
+    }
+    #banner4 {
+        flex-direction: column;
+    }
+    #banner4> :nth-child(2) {
+       
     
+        justify-content: center;
+        
+    
+    }
+
+    .hideOnSmall{
+        display: none !important;
+    }
+    .btnShop button {
+        width: 30vw;
+        height: 8vw;
+        font-size: 3vw;
+       
+    }
+    
+}
+@media all and (min-width:300px) and (max-width:452px) {
+
+    footer {
+       
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+      
+    }  
+    .shop{
+        flex-direction: column;
+    }
+    .btnShop{
+        flex-direction: column;
+    }
+    #secondBtn{
+        margin-left: 5vw;
+    }
+    #banner4 {
+        flex-direction: column;
+    }
+    #banner4> :nth-child(2) {
+       
+    
+        justify-content: center;
+        
+    
+    }
+
+    .hideOnSmall{
+        display: none !important;
+    }
+    
+
+    
+
 }
 
 
