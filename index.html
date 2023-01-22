@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign In Page</title>
-    <link rel="stylesheet" href="./CSS/index.css">
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/index.css">
 </head>
-
 <body>
     <div id="banner1">
-        <!-- <p style="font-size: medium;"></p> -->
         <marquee behavior="slide" direction="left" loop="100">50-70 % Off On Every Product 
             &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -30,91 +27,117 @@
             <div class="hideOnSmall" id="jeansSelect"><a href="./pages/jeans.html">Jeans</a></div>
             <div class="hideOnSmall" style="color: red;">Clearance</div>
         </div>
-        <div  id="title" style="cursor: pointer;"><b><a href="./pages/home.html">FASHION</a></b></div>
+        <div  id="title" style="cursor: pointer;"><b><a href="./index.html">FASHION</a></b></div>
         <div class="banner2b">
             <div class="hideOnSmall"><input type="text" placeholder="Search" /><button>Search</button></div>
 
             <div class="hideOnSmall"><a href="./index.html"/><img style="height:20px;" src="./images/icons/location.png" alt="no image found" /> </div>
-            <div class="hideOnSmall"><img style="height:20px;" src="./images/icons/user.png" alt="no image found" /> </div>
-            <div>
+            <div class="hideOnSmall"><a href="./pages/signup.html"/><img style="height:20px;" src="./images/icons/user.png" alt="no image found" /> </div>
                 <a href="./pages/addToCart.html"><img style="width: 25px;height:22px;padding-right: 5px;;" src="./images/icons/lock.png" alt="no image found" /></a>
             </div>
         </div>
     </div>
-    <div id="signin">
-        <div id="returningCustomer">
-            <h2 style="margin-left: 4vw;">Returning Customers</h2>
-            <p style="margin-left: 4vw;">If you are a registered user, please enter your email and password.</p>
-            <input id="emailId" type="email" placeholder="EMAIL OR USERNAME" />
-            <input id="password" type="password" placeholder="PASSWORD" /><br>
-            <p style="margin-left: 4vw;margin-top: 1vw;color: red;display: none;" id="displayMsg"></p>
-            <input style="margin-left: 4vw;" type="checkbox" /><span>Remember</span><span
-                style="padding-left:19vw">Forgot Password?</span>
-
-            <button id="signIn" style="margin-left: 4vw;margin-top: 1vw;">SIGN IN</button><BR>
-            <a id="goToHome" style="display:none" href="./pages/home.html">hello</a>
-
-            <p style="margin-left: 4vw;">Or log in using your account from</p>
-            <button style="margin-left: 4vw;">LOGIN IN FACEBOOK</button>
-            <p>
-            <h6 style="margin-left: 4vw;">Please see our Privacy Policy. California residents, see our California
-                Privacy Notice and Do Not Sell My Personal Information page.</h6>
-            </p>
+    <div id="banner3">
+        <div>
+            <h4>
+                Good Things Take Time. Over the last few weeks, we've implemented extra precautionary measures in our
+                warehouse to ensure the health and safety of our customers and<br> associates. Because of this your shipment
+                may experience delays. Thank you for your patience and understanding.
+            </h4>
         </div>
-        <div id="newCustomer">
-            <h2>New Customers</h2>
-            <p>Creating an account is easy. Just fill out the form below and enjoy the benefits of being a registered
-                customer.</p>
-            <button>CREATE ACCOUNT NOW</button>
-            <br>
-            <h2>TRACK YOUR ORDER</h2>
-            <p>See your order even if you are not a registered user.</p>
-            <input type="text" placeholder="ORDER NUMBER" /><BR>
-            <input type="text" placeholder="ORDER EMAIL" /><BR>
-            <input type="text" placeholder="BILLING ZIP CODE" /><br>
-            <button>CHECK STATUS</button>
+        <div>
+            <h4>
+                Learn More And Stay Safe
+            </h4>
         </div>
     </div>
-    <footer>
+    <div id="banner4">
         <div>
-            <li class="footerTop">Get to Know Us</li>
-            <li>Careers</li>
+            <div>
+                <h2>AERO</h2>
+                <img
+                    src="https://www.aeropostale.com/on/demandware.static/-/Sites-aeropostale-Library/default/dw7b62e072/images/homepage/2020/060420/ONENESS-MOBILE-ANIMATION.gif" />
+            </div>
+        </div>
+        <div>
+            <div>
+                <h2>STAND TALL. STAND PROUD. STAND OUT.
+                    <br>Take pride in who you are
+                    <br>Celebrate individuality together.
+                </h2>
+            </div>
+        </div>
+    </div>
+    <div class="shop">
+        <div>
+            <h1 style="color:#ee5e68"><span style="font-size:60px; color:#ee5e68;">50-70% Off Everything! </span><br><span>& Our Biggest Shorts Event of The Season !</span</h1>
+        </div>
+        <div class="btnShop">
+            <div>
+                <a href="./pages/women.html"/><button>Shop Girls</button>
+                <a href="./pages/mens.html"/><button>Girls Shorts $11.87 & Up</button>
+            </div>
+            <div id="secondBtn">
+                <a href="./pages/women.html"/><button>Shop Guys</button>
+                <a href="./pages/mens.html"/> <button>Guys Shorts $12 & Up</button>
+            </div>
+        </div>
+    </div> 
+    <div id="fashion">
+
+    </div>
+    <div id="aeroPride">
+        <div>
+            <p id="aeroParagraph1">POV:Aero Pride Ambassador</p><br>
+            <p id="aeroPrideDynamic"></p>
+
+        </div>
+        <div>
+            <button>Learn More</button>
+        </div>
+
+    </div>
+    <div id="jeans">
+        <img style="height:40vw; width:100%;" src="https://www.aeropostale.com/on/demandware.static/-/Sites-aeropostale-Library/default/dw50dec257/images/homepage/2020/051320/ECO_DESKTOP@2x-min.jpg"/>
+    </div>
+    
+
+    <footer>
+       <div>
+            <li class="footerTop">Get to Know Us</li> 
+            <li>Careers</li>   
             <li>About Us</li>
             <li>Press Releases</li>
             <li>Aeropostale Science</li>
-        </div>
-        <div>
-            <li class="footerTop">Connect with Us</li>
-            <li>Facebook</li>
-            <li>Twitter</li>
+       </div>
+       <div>
+            <li class="footerTop">Connect with Us</li> 
+            <li>Facebook</li>   
+            <li>Twitter</li>        
             <li>Instagram</li>
             <li style="margin-bottom:1vw">Orkut</li>
             <span>
-                <img style="width:20px;height:20px"
-                    src="https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/facebook-1024.png" />
-                <img style="width:20px;height:20px"
-                    src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-1024.png" />
-                <img style="width:20px;height:20px"
-                    src="https://cdn1.iconfinder.com/data/icons/logotypes/32/pinterest-1024.png" />
-                <img style="width:20px;height:20px"
-                    src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter2_colored_svg-1024.png" />
-                <img style="width:20px;height:20px"
-                    src="https://cdn1.iconfinder.com/data/icons/logotypes/32/youtube-1024.png" />
-            </span>
+                <img style="width:20px;height:20px" src="https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/facebook-1024.png"/>
+                <img style="width:20px;height:20px" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-1024.png"/>
+                <img style="width:20px;height:20px" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/pinterest-1024.png"/>
+                <img style="width:20px;height:20px"src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter2_colored_svg-1024.png"/>
+                <img style="width:20px;height:20px"src="https://cdn1.iconfinder.com/data/icons/logotypes/32/youtube-1024.png"/>
+            </span> 
         </div>
-        <div>
-            <li class="footerTop">Make Money with Us</li>
-            <li>Sell on Aeropostale</li>
+        <div >
+            <li class="footerTop">Make Money with Us</li> 
+            <li>Sell on Aeropostale</li>   
             <li>Sell under Aeropostale Accelerator</li>
             <li>Protect and Build Your Brand</li>
             <li>Aeropostale Global Selling</li>
             <li>Become an Affiliate</li>
             <li>Advertise Your Products</li>
             <li>Aeropostale Pay on Merchants</li>
+           
         </div>
         <div>
-            <li class="footerTop">Let Us Help You</li>
-            <li>COVID-19 and Aeropostale</li>
+            <li class="footerTop">Let Us Help You</li> 
+            <li>COVID-19 and Aeropostale</li>   
             <li>Your Account</li>
             <li>Returns Centre</li>
             <li>100% Purchase Protection</li>
@@ -123,7 +146,8 @@
             <li>Help</li>
         </div>
     </footer>
+
+   
 </body>
 <script src="./js/index.js"></script>
-
 </html>
