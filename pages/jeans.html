@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign In Page</title>
-    <link rel="stylesheet" href="./CSS/index.css">
+    <title>Jeans</title>
+    <link rel="stylesheet" href="./../css/jeans.css">
 </head>
 <body>
     <div id="banner1">
@@ -21,51 +21,37 @@
     </div>
     <div id="banner2">
         <div class="banner2a">
-            <div id="womenSelect"><a href="./pages/women.html">Women</a></div>
-            <div id="menSelect"><a href="pages/mens.html">Men</a></div>
-            <div id="jeansSelect"><a href="pages/jeans.html">Jeans</a></div>
+            <div id="womenSelect"><a href="women.html">Women</a></div>
+            <div id="menSelect"><a href="mens.html">Men</a></div>
+            <div id="jeansSelect"><a href="jeans.html">Jeans</a></div>
             <div style="color: red;">Clearance</div>
         </div>
-        <div id="title" style="cursor: pointer;"><b><a href="./pages/home.html">AKART</a></b></div>
+        <div id="title" style="cursor: pointer;"><b><a href="home.html">AKART</a></b></div>
         <div class="banner2b">
-            <div><input type="text" placeholder="Search" /><button>Search</button></div>
+            <div><input type="text" id="toFilter" placeholder="Filter By Price" /><button id="filter">Filter</button></div>
 
             <div><a href="./../index.html"/><img style="height:20px;" src="./../images/icons/location.png" alt="no image found" /> </div>
-            <div><img style="height:20px;" src="./images/icons/user.png" alt="no image found" /> </div>
+            <div><img style="height:20px;" src="./../images/icons/user.png" alt="no image found" /> </div>
             <div>
-                <a href="./pages/addToCart.html"><img style="width: 25px;height:22px;padding-right: 5px;;" src="./../images/icons/lock.png" alt="no image found" /></a>
+                <a href="./addToCart.html"><img style="width: 25px;height:22px;padding-right: 5px;;" src="./../images/icons/lock.png" alt="no image found" /></a>
             </div>
         </div>
     </div>
-    <div id="signin">
-        <div id="returningCustomer">
-            <h2  style="margin-left: 4vw;">Returning Customers</h2>
-            <p  style="margin-left: 4vw;">If you are a registered user, please enter your email and password.</p>
-            <input id="emailId" type="email" placeholder="EMAIL OR USERNAME"/>
-            <input id="password" type="password" placeholder="PASSWORD"/><br>
-            <p style="margin-left: 4vw;margin-top: 1vw;color: red;display: none;"id="displayMsg"></p>
-            <input style="margin-left: 4vw;" type="checkbox" /><span>Remember</span><span style="padding-left:19vw">Forgot Password?</span>
-            
-            <button id="signIn" style="margin-left: 4vw;margin-top: 1vw;">SIGN IN</button><BR>
-            <a id="goToHome" style="display:none" href="./pages/home.html">hello</a>
-              
-            <p style="margin-left: 4vw;">Or log in using your account from</p>
-            <button style="margin-left: 4vw;">LOGIN IN FACEBOOK</button>
-            <p><h6 style="margin-left: 4vw;">Please see our Privacy Policy. California residents, see our California Privacy Notice and Do Not Sell My Personal Information page.</h6></p>
-        </div>
-        <div id="newCustomer">
-            <h2>New Customers</h2>
-            <p>Creating an account is easy. Just fill out the form below and enjoy the benefits of being a registered customer.</p>
-            <button>CREATE ACCOUNT NOW</button>
-            <br>
-            <h2>TRACK YOUR ORDER</h2>
-            <p>See your order even if you are not a registered user.</p>
-            <input type="text" placeholder="ORDER NUMBER"/><BR>
-            <input type="text" placeholder="ORDER EMAIL"/><BR>
-            <input type="text" placeholder="BILLING ZIP CODE"/><br>
-            <button>CHECK STATUS</button>
-        </div>
+    <div id="banner3">
+        <a style="font-size: 30px;" href="">Jeans</a>
+        <a href="">Tshirt</a>
+        <a href="">Bottom</a>
+        <a href="">Hoodies</a>
+        <a href="">Loungewear</a>
+        <a href="">Swimmer</a>
+        <a href="">Outwear</a>
+        <a href="">Acessories</a>
+        <a href="">Sweaters</a>
     </div>
+    <div id="products">
+
+    </div>
+
     <footer>
         <div>
              <li class="footerTop">Get to Know Us</li> 
@@ -96,7 +82,7 @@
              <li>Aeropostale Global Selling</li>
              <li>Become an Affiliate</li>
              <li>Advertise Your Products</li>
-             <li>Aeropostale Pay on Merchants</li>
+             <li style="margin-bottom:1vw;">Aeropostale Pay on Merchants</li>
          </div>
          <div>
              <li class="footerTop">Let Us Help You</li> 
@@ -109,6 +95,10 @@
              <li>Help</li>
          </div>
      </footer>
+
+    
+ 
+    
 </body>
-<script src="./js/index.js"></script>
+<script src="./../js/jeans.js"></script>
 </html>

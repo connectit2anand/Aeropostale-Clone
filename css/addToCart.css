@@ -1,0 +1,252 @@
+#banner1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 3vw;
+    background: #1e3352;
+    color: white;
+}
+
+#btn1,
+#btn2 {
+    color: white;
+    background: #1e3352;
+}
+
+#banner2 {
+    display: flex;
+    justify-content: space-around;
+    height: 8vw;
+    width: 100vw;
+    font-size: 1.125rem;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#banner2 > div{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.banner2a {
+    display:flex;
+}
+.banner2a  div{
+    display: flex;
+    justify-content: space-between;
+}
+.banner2b{
+    display: flex;
+}
+.banner2b  img{
+    width: 20px;
+    height:25px;
+    margin: auto;;
+    margin-left: 5px;
+    margin-right: 5px;;
+}
+#title{
+    width:10vw;
+    font-size: 5vw;
+}
+
+ 
+
+footer {
+    width:100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: auto;
+    color: white;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 1.2vw;;
+}
+
+
+.footerTop {
+    font-size: 1.5vw;
+    margin-top: 0.8vw;
+    margin-bottom: 0.8vw;
+}
+
+
+footer li:hover {
+    color: #ee5e68;
+    cursor: pointer;
+}
+
+footer div {
+    margin-left: 5vw;
+}
+footer > :nth-child(3){
+    margin-right:6vw;
+}
+
+
+#addToCart{
+    width:100%;
+    display: flex;
+    text-align: center;
+}
+
+#bag{
+    width:100%;
+    padding-left: 5vw;
+}
+#payment{
+    width:100%;
+}
+#paymentBox{
+    width:80%;
+    margin: auto;;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-left: 6vw;
+    
+}
+#checkout{
+    background-color:black;
+    color:white;
+    font-size: 1vw;;
+}
+#paymentBox button {
+    display: block;
+    height:2vw;
+    margin: auto;
+    width:80%;
+}
+#paymentBox span{
+    margin-left: 12vw;;
+}
+
+#paymentBox > p{
+    margin-top: -1vw;;
+}
+
+#payment  :nth-child(2){
+    margin-top: 1vw;;
+}
+
+#products{
+    width:100%;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:1vw;
+    margin: auto;
+}
+#products img{
+    width: 15vw;
+    height: 20vw;
+    width:100%;
+    
+}
+#products img:hover{
+    transform: scale(1.0001);
+}
+#products p{
+    font-family: "Visuelt Pro", sans-serif;
+    font-size: 0.875rem;
+    font-weight: normal;
+    line-height: 1.4;
+    color: #000;
+}
+
+#products p:hover{
+    margin-left: 1vw;
+    color:#ee5e68;
+    cursor: pointer;
+    
+}
+#bag{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:1vw;
+    margin: auto;
+}
+#bag  img{
+    width: 10vw;
+    height: 15vw;
+    width: 100%;;
+}
+#card{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    
+}
+
+#paymentCard img{
+    width: 5vw;
+    height:4vw;
+}
+a{
+    text-decoration: none;;
+}
+
+#bankOffers{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin: auto;
+}
+#bankOffers > img{
+    width:15vw;
+}
+
+
+
+
+
+@media all and (min-width:451px) and (max-width:750px) {
+
+    footer {
+       
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      
+    }  
+
+    #products{
+        width:90%;
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:1vw;
+       
+    }
+
+    #bankOffers{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin: auto;
+    }
+
+}
+
+
+@media all and (min-width:200px) and (max-width:451px) {
+
+    footer {
+       
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+      
+    }  
+
+    #products{
+        width:90%;
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        gap:1vw;
+       
+    }
+
+    #bankOffers{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: auto;
+    }
+
+}
+
+
