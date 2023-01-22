@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,12 @@
     <title>Add to cart</title>
     <link rel="stylesheet" href="./../css/addToCart.css">
 </head>
+
 <body>
     <div id="banner1">
         <div>
-            <button id="btn1">< </button>   
+            <button id="btn1">
+                < </button>
         </div>
         <div>
             <p style="font-size: medium;">50-70 % Off On Every Product</p>
@@ -31,9 +34,11 @@
             <div><input type="text" placeholder="Search" /><button>Search</button></div>
 
             <div><img style="height:20px;" src="./../images/icons/location.png" alt="no image found" /> </div>
-            <div><a href="./../index.html"/><img style="height:20px;" src="./../images/icons/user.png" alt="no image found" /> </div>
+            <div><a href="./../index.html" /><img style="height:20px;" src="./../images/icons/user.png"
+                    alt="no image found" /> </div>
             <div>
-                <a href="./addToCart.html"><img style="width: 25px;height:22px;padding-right: 5px;;" src="./../images/icons/lock.png" alt="no image found" /></a>
+                <a href="./addToCart.html"><img style="width: 25px;height:22px;padding-right: 5px;;"
+                        src="./../images/icons/lock.png" alt="no image found" /></a>
             </div>
         </div>
     </div>
@@ -42,80 +47,102 @@
 
         </div>
         <div id="payment">
-            <div id="paymentBox" >
+            <div id="paymentBox">
                 <h2>ORDER SUMMARY</h2>
                 <p>Sub Total<span id="total" style=" margin-left: 19.5vw;"></span></p><br>
                 <p>Shipping Economy Ground<span id="shippingTax"></span></p><br>
                 <p>Sales Tax<span id="salesTax" style="margin-left: 19.5vw;
-                "></span></p><br>
+                "></span></p> <br>
+                <p id="couponMsg" style="color: green; display: none;">Coupon Applied<span id="couponDis" style="margin-left: 16.7vw;
+                    "></span></p>
+                <select name="coupon" id="coupon">
+                    <option value="">Apply Coupon</option>
+                    <option value="IDFCPF10">IDFCPF10</option>
+                    <option value="AMEXMKPF5">AMEXMKPF5</option>
+                    <option value="ICICIPF15">ICICIPF15</option>
+                    <option value="RBLPF5">RBLPF5</option>
+                    <option value="ICICIEMIPF20">ICICIEMIPF20</option>
+                </select><br><br>
                 <p>Estimated Total<span id="estimatedTotal" style="margin-left: 17vw;"></span></p>
                 <button id="checkout">Checkout</button>
                 <div id="paymentCard">
-                    <img  src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/363_Visa_Credit_Card_logo-512.png">
-                    <img src="https://cdn0.iconfinder.com/data/icons/credit-card-debit-card-payment-PNG/128/Mastercard-Curved.png"/>
-                    <img src="https://cdn3.iconfinder.com/data/icons/payment-methods-18/512/card_credit_vector_Maestro-1024.png"/>
-                    <img src="https://cdn2.iconfinder.com/data/icons/credit-cards-6/156/american_express-1024.png"/>
+                    <img
+                        src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/363_Visa_Credit_Card_logo-512.png">
+                    <img
+                        src="https://cdn0.iconfinder.com/data/icons/credit-card-debit-card-payment-PNG/128/Mastercard-Curved.png" />
+                    <img
+                        src="https://cdn3.iconfinder.com/data/icons/payment-methods-18/512/card_credit_vector_Maestro-1024.png" />
+                    <img src="https://cdn2.iconfinder.com/data/icons/credit-cards-6/156/american_express-1024.png" />
                 </div>
                 <h4>Estimated Shipping Cost</h4>
-                <p ><input type="radio" name="test"/> Economy Ground (Delivered In 3 - 7 Business Days.): $5.00</p>
-                <p><input type="radio" name="test"/> Standard Ground (Delivered In 3 - 5 Business Days.): $8.00</p>
-                <p><input type="radio" name="test"/> 2 Business Days (Order By 1:30PM EST, No Weekend Deliveries): $13.00</p>
-                <p><input type="radio" name="test"/> Overnight (Order By 1:30pm EST, No Weekend Deliveries): $25.00</p>
+                <p><input type="radio" name="test" /> Economy Ground (Delivered In 3 - 7 Business Days.): $5.00</p>
+                <p><input type="radio" name="test" /> Standard Ground (Delivered In 3 - 5 Business Days.): $8.00</p>
+                <p><input type="radio" name="test" /> 2 Business Days (Order By 1:30PM EST, No Weekend Deliveries):
+                    $13.00</p>
+                <p><input type="radio" name="test" /> Overnight (Order By 1:30pm EST, No Weekend Deliveries): $25.00</p>
             </div>
         </div>
     </div>
-    <div id ="bankOffers">
+    <div id="bankOffers">
         <img src="https://ii1.pepperfry.com/media/wysiwyg/banners/Web_No_Cost_EMI16421_2x.png" alt="bank">
         <img src="https://ii2.pepperfry.com/media/wysiwyg/banners/Web_Bank_IDFC16421_2x.png" alt="bank">
         <img src="https://ii3.pepperfry.com/media/wysiwyg/banners/Web_Bank_AMEX16721_2x.png" alt="bank">
         <img src="https://ii1.pepperfry.com/media/wysiwyg/banners/Web_Bank_ICICI_Festive_0122421_2x.png" alt="bank">
         <img src="https://ii2.pepperfry.com/media/wysiwyg/banners/Web_Bank_RBL16421_2x.png" alt="bank">
-        <img src="https://ii3.pepperfry.com/media/wysiwyg/banners/Web_Bank_ICICI_Festive_0222421_2x.png" alt="bank"></div></div>
+        <img src="https://ii3.pepperfry.com/media/wysiwyg/banners/Web_Bank_ICICI_Festive_0222421_2x.png" alt="bank">
+    </div>
+    </div>
     </div>
     <footer>
         <div>
-             <li class="footerTop">Get to Know Us</li> 
-             <li>Careers</li>   
-             <li>About Us</li>
-             <li>Press Releases</li>
-             <li>Aeropostale Science</li>
+            <li class="footerTop">Get to Know Us</li>
+            <li>Careers</li>
+            <li>About Us</li>
+            <li>Press Releases</li>
+            <li>Aeropostale Science</li>
         </div>
         <div>
-             <li class="footerTop">Connect with Us</li> 
-             <li>Facebook</li>   
-             <li>Twitter</li>        
-             <li>Instagram</li>
-             <li  style="margin-bottom:1vw">Orkut</li>
-             <span>
-                <img style="width:20px;height:20px" src="https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/facebook-1024.png"/>
-                <img style="width:20px;height:20px" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-1024.png"/>
-                <img style="width:20px;height:20px" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/pinterest-1024.png"/>
-                <img style="width:20px;height:20px"src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter2_colored_svg-1024.png"/>
-                <img style="width:20px;height:20px"src="https://cdn1.iconfinder.com/data/icons/logotypes/32/youtube-1024.png"/>
+            <li class="footerTop">Connect with Us</li>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+            <li style="margin-bottom:1vw">Orkut</li>
+            <span>
+                <img style="width:20px;height:20px"
+                    src="https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/facebook-1024.png" />
+                <img style="width:20px;height:20px"
+                    src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-1024.png" />
+                <img style="width:20px;height:20px"
+                    src="https://cdn1.iconfinder.com/data/icons/logotypes/32/pinterest-1024.png" />
+                <img style="width:20px;height:20px"
+                    src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter2_colored_svg-1024.png" />
+                <img style="width:20px;height:20px"
+                    src="https://cdn1.iconfinder.com/data/icons/logotypes/32/youtube-1024.png" />
             </span>
-         </div>
-         <div >
-             <li class="footerTop">Make Money with Us</li> 
-             <li>Sell on Aeropostale</li>   
-             <li>Sell under Aeropostale Accelerator</li>
-             <li>Protect and Build Your Brand</li>
-             <li>Aeropostale Global Selling</li>
-             <li>Become an Affiliate</li>
-             <li>Advertise Your Products</li>
-             <li style="margin-bottom:1vw;">Aeropostale Pay on Merchants</li>
-         </div>
-         <div>
-             <li class="footerTop">Let Us Help You</li> 
-             <li>COVID-19 and Aeropostale</li>   
-             <li>Your Account</li>
-             <li>Returns Centre</li>
-             <li>100% Purchase Protection</li>
-             <li>Aeropostale App Download</li>
-             <li>Aeropostale Assistant Download</li>
-             <li>Help</li>
-         </div>
-     </footer>
+        </div>
+        <div>
+            <li class="footerTop">Make Money with Us</li>
+            <li>Sell on Aeropostale</li>
+            <li>Sell under Aeropostale Accelerator</li>
+            <li>Protect and Build Your Brand</li>
+            <li>Aeropostale Global Selling</li>
+            <li>Become an Affiliate</li>
+            <li>Advertise Your Products</li>
+            <li style="margin-bottom:1vw;">Aeropostale Pay on Merchants</li>
+        </div>
+        <div>
+            <li class="footerTop">Let Us Help You</li>
+            <li>COVID-19 and Aeropostale</li>
+            <li>Your Account</li>
+            <li>Returns Centre</li>
+            <li>100% Purchase Protection</li>
+            <li>Aeropostale App Download</li>
+            <li>Aeropostale Assistant Download</li>
+            <li>Help</li>
+        </div>
+    </footer>
 
 </body>
 <script src="./../js/addToCart.js"></script>
+
 </html>

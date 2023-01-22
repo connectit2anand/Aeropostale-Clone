@@ -64,7 +64,7 @@ data.push(obj8);
 
 let obj9 = {
     image:"./../images/womens/9.jpg",
-    desc:"City Oversized Bomber Jacket",
+    desc:" Favourite Shelf-Bra Cami",
     price:"650",
     cart:"Add To Cart",
 }
@@ -72,7 +72,7 @@ data.push(obj9);
 
 let obj10 = {
     image:"./../images/womens/10.jpg",
-    desc:"Favourite Shelf-Bra Cami",
+    desc:"City Oversized Bomber Jacket",
     price:"1000",
     cart:"Add To Cart",
 }

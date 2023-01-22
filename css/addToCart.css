@@ -139,9 +139,7 @@ footer > :nth-child(3){
     margin: auto;
 }
 #products img{
-    width: 15vw;
     height: 20vw;
-    width:100%;
     
 }
 #products img:hover{

@@ -70,7 +70,8 @@ function display(data) {
     let totalAmount = document.getElementById("total");
     let estimatedTotalAmount = document.getElementById("estimatedTotal");
     totalAmount.innerText = subTotal;
-    estimatedTotalAmount.innerText = estimatedTotal + subTotal;
+    estimatedTotal = estimatedTotal + subTotal;
+    estimatedTotalAmount.innerText = estimatedTotal;
 }
 
 
@@ -88,6 +89,35 @@ function deleteLS(obj){
     localStorage.setItem("cart",JSON.stringify(cartProductsLS));
     display(cartProductsLS);
 }
+
+let coupon = document.getElementById("coupon");
+coupon.addEventListener("change", event => {
+    let message = document.getElementById("couponMsg");
+    let percentage = document.getElementById("couponDis");
+    let estimatedTotalAmount = document.getElementById("estimatedTotal");
+    let couponSelected = event.target.value;
+    if(couponSelected == ""){
+        estimatedTotalAmount.innerText = estimatedTotal;
+        message.style.display = "none";
+    } else {
+        message.style.display = "";
+        let discountedPrice = estimatedTotal;
+        if(couponSelected == "IDFCPF10") {
+            discountedPrice = discountedPrice - Math.floor(estimatedTotal * 0.1);
+            percentage.innerText = "10%";
+        } else if(couponSelected == "AMEXMKPF5" || couponSelected == "RBLPF5") {
+            discountedPrice = discountedPrice - Math.floor(estimatedTotal * 0.05);
+            percentage.innerText = "5%";
+        } else if(couponSelected == "ICICIPF15") {
+            discountedPrice = discountedPrice - Math.floor(estimatedTotal * 0.15);
+            percentage.innerText = "15%";
+        } else {
+            discountedPrice = discountedPrice - Math.floor(estimatedTotal * 0.2);
+            percentage.innerText = "20%";
+        }
+        estimatedTotalAmount.innerText = discountedPrice;
+    }
+})
 
 function increaseProduct(obj){
     let obj1 = JSON.stringify(obj);
