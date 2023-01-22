@@ -185,6 +185,15 @@ a{
     text-decoration: none;;
 }
 
+#bankOffers{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin: auto;
+}
+#bankOffers > img{
+    width:15vw;
+}
+
 
 
 @media all and (min-width:451px) and (max-width:750px) {
@@ -202,6 +211,37 @@ a{
         grid-template-columns: repeat(2,1fr);
         gap:1vw;
        
+    }
+
+    #bankOffers{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin: auto;
+    }
+
+}
+
+@media all and (min-width:200px) and (max-width:451px) {
+
+    footer {
+       
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+      
+    }  
+
+    #products{
+        width:90%;
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        gap:1vw;
+       
+    }
+
+    #bankOffers{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: auto;
     }
 
 }
